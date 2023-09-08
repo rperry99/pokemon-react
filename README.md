@@ -1,8 +1,14 @@
-# React + Vite
+# Pokemon React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The base project was adapted from [this project](youtube.com/watch?v=bqDFwWNTv4A) by [Smoljames](https://www.youtube.com/@Smoljames) on YouTube.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+With the base app, you can:
+
+- See a list of pokemon using the [PokeAPI](https://pokeapi.co/).
+- You can search for a pokemon.
+  - Currently, the app only uses the first 20 pokemon from Bulbasaur - Raticate.
+  - With every keystroke of the search, the list of pokemon will be filtered down based on your search term.
+- You can click on a pokemon name to show a card of that pokemon.
+  - The card will show the pokemon's name, stats, an image, and its type.
