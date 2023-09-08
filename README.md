@@ -6,6 +6,7 @@ The base project was adapted from [this project](youtube.com/watch?v=bqDFwWNTv4A
 
 With the base app, you can:
 
+- The pokemon will be saved to the cache, so that it doesn't overload the API.
 - See a list of pokemon using the [PokeAPI](https://pokeapi.co/).
 - You can search for a pokemon.
   - Currently, the app only uses the first 20 pokemon from Bulbasaur - Raticate.
